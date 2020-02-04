@@ -44,7 +44,7 @@ eureka:
 info:
   app.name: lif-microservicecloud
   company.name: www.lif.com
-  build.artifactId: $project.artifactId$
+  build.artifactId: ${project.artifactId}$
   build.version: $project.version$
 ---
 server:
